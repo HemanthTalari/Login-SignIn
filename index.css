@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://wallpapers.com/images/hd/aesthetic-computer-4k-2o1einarkegqjjj5.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+.outerBox {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+.loginBox {
+    backdrop-filter: blur(10px);
+    padding: 5%;
+    border-radius: 10px;
+    padding-top:0px ;
+}
+
+img {
+    position: relative;
+    top: -40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+.button {
+    background-color: transparent;
+
+    padding: 5%;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    cursor: pointer;
+
+border-radius: 10px;
+    margin: 25px;
+
+}
+
+
+
+.button:hover {
+    color: black;
+    background-color: aliceblue;
+    transition-duration: 0.6s;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+margin: 1px ; 
+}
